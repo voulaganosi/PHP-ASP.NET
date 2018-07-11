@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<script type="text/javascript">
+	function tfocus(p){
+		p.style.backgroundColor = "yellow";
+	}
+	function tblur(p){
+		if(p.value=="")
+			p.style.backgroundColor = "white";
+		else
+			p.style.backgroundColor = "red";
+	}
+	</script>
+</head>
+
+<body>
+
+</body>
+<p><input type="text" id="t1" onblur="tblur(this)" onfocus="tfocus(this)" /></p>
+<p><input type="text" id="t2" onblur="tblur(this)" onfocus="tfocus(this)" /></p>
+<p><input type="text" id="t3" onblur="tblur(this)" onfocus="tfocus(this)" /></p>
+<p><input type="text" id="t4" onblur="tblur(this)" onfocus="tfocus(this)" /></p>
+
+</html>

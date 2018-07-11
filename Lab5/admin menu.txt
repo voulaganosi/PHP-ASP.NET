@@ -1,0 +1,12 @@
+<?php
+	if($_SESSION['username']=='admin'){
+		print "<a href="."?p=customers".">Λίστα πελατών</a>";
+		print "<br/>";
+		print "<a href="."?p=orders".">Λίστα παραγγελιών</a>";
+		print "<br/>";
+		print "<a href="."?p=prod".">Προιοντα</a>";
+		print "<br/>";
+
+		print "<a href="."?p=logout".">Logout</a>";
+	}
+?>

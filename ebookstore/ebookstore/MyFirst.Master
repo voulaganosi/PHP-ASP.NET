@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyFirst.master.cs" Inherits="ebookstore.MyFirst" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="css/Mainstyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="topdiv">
+        <asp:Button ID="HomeB" runat="server" Text="Arxikh" OnClick="HomeB_Click" />
+        <asp:Button ID="ShopInfoB" runat="server" Text="To katasthma" OnClick="ShopInfoB_Click" />
+        <asp:Button ID="ProductsB" runat="server" Text="Proionta" OnClick="ProductsB_Click"/>
+        <asp:Button ID="LoginB" runat="server" Text="Eisodos" OnClick="LoginB_Click"/>
+    </div>
+    <div class="leftdiv">
+        <asp:ContentPlaceHolder ID="leftcontent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="maindiv">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <div class="footerdiv">
+        Sxediash Ylopoihsh Mathima:Anaptyksh Diadiktiakwn Systhmatwn Kai Efarmogwn Antwniou Kwstas
+    </div>
+    </form>
+</body>
+</html>

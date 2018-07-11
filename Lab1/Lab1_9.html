@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+<title>My first HTML document</title>
+<script type="text/javascript">
+function f1(){
+	var x = document.getElementById("t1").value;
+	if(isNaN(x))
+		document.body.bgColor='green';
+	
+	if(!isNaN(x))
+		document.body.bgColor='yellow';
+		
+	if(x=="")
+		document.body.bgColor='red';
+
+	}
+</script>
+</head>
+
+<body>
+<input type="text" id="t1" onchange="f1()">
+</body>
+
+</html>

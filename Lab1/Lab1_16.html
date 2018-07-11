@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript">
+	var myImages = [["1.jpg","540","400"], ["2.jpg","120","120"], ["check.jpg","200","200"], ["index.jpg","300","100"]];
+	var l = myImages.length;
+	var eikona;
+	var index = 0;
+	//var myImages = new Array();
+	//myImages[0] = new Array("1.jpg", 600, 400);
+	function N(){
+		eikona = document.getElementById("eikona1");
+		index++;
+		if(index==l) index = 0;
+		eikona.src = myImages[index][0];
+		eikona.width = myImages[index][1];
+		eikona.height = myImages[index][2];
+	}
+	function P(){
+		eikona = document.getElementById("eikona1");
+		index--;
+		if(index<0) index = l-1;
+		eikona.src = myImages[index][0];
+		eikona.width = myImages[index][1];
+		eikona.height = myImages[index][2];
+	}
+</script>
+</head>
+
+
+<body>
+<img src="1.jpg" id="eikona1" width="120" height="96" /><br/>
+<input type="button" id="b1" value="Previous" onclick="P()"/>
+<input type="button" id="b2" value="Next" onclick="N()"/>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+<title>My first HTML document</title>
+<script type="text/javascript">
+function add(){
+	var v1 = document.getElementById("t1").value;
+	var v2 = document.getElementById("t2").value;
+	v1 = parseInt(v1);
+	v2 = parseInt(v2);
+	var x = v1 + v2;
+	document.getElementById("t3").value = x;	
+}
+</script>
+</head>
+
+<body>
+
+<input type="text" id="t1"/>
+<input type="text" id="t2"/>
+<input type="button" onclick="add()" value="Add"/>
+<p>Apotelesma : <input type="text" id="t3"/>
+</p>
+</body>
+
+</html>

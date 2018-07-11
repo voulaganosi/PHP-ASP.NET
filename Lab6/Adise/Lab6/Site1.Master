@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Lab6.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Stylesheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id='topmenu'>
+            <a href="Default.aspx">Αρχικη</a> <a href="ShopInfo.aspx">Καταστημα</a>
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Προιντα </asp:LinkButton>
+            <a href="Cart.aspx">Καλαθι Προιοντων</a> <a href="Login.aspx">Σύνδεση</a> <a href="Contact.aspx">
+                Επικοινωνια</a>
+        </div>
+        <div id='left'>
+            <asp:Label ID="UserMsg" runat="server" Text=""></asp:Label>
+            <br />
+            <asp:Panel ID="Panel1" runat="server" Visible="False">
+                <asp:LinkButton ID="MyOrdersLink" runat="server" OnClick="MyOrdersLink_Click">Εμφάνιση παραγγελιών</asp:LinkButton><br />
+                <asp:LinkButton ID="MyDetailsLink" runat="server" OnClick="MyDetailsLink_Click">Στοιχεία πελάτη</asp:LinkButton><br />
+            </asp:Panel>
+            <asp:Panel ID="Panel2" runat="server" Visible="False">
+                <asp:LinkButton ID="CustomersLink" runat="server" OnClick="CustomersLink_Click">Λίστα πελατών</asp:LinkButton><br />
+                <asp:LinkButton ID="OrdersLink" runat="server" OnClick="OrdersLink_Click">Λίστα παραγγελιών</asp:LinkButton><br />
+            </asp:Panel>
+            <asp:LinkButton ID="LogoutLink" runat="server" OnClick="LogoutLink_Click" Visible="False"
+                Height="0px">Αποσύνδεση</asp:LinkButton>
+        </div>
+        <div id='content'>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id='footer'>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

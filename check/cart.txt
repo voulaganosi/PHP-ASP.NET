@@ -1,0 +1,25 @@
+addtocart:
+
+if(!is_array($_SESSION['cart'])) {
+ $_SESSION['cart']=array();
+}
+$pid = $_REQUEST['pid']; 
+$_SESSION['cart'][$pid] += $_REQUEST['qty']; 
+
+----------------------
+showcart:
+if(!is_array($_SESSION['cart'])) {
+ $_SESSION['cart']=array();
+}
+$sql = "select * from product where ID=?";
+$stmt = $mysqli->prepare($sql);
+
+foreach($_SESSION['cart'] as $p => $q) {
+ $stmt->bind_param("i", $p);
+ $stmt->execute();
+ $result = $stmt->get_result();
+ $row = $result->fetch_assoc();
+ print "$p $row[Name] $q..." . ($q * $row['Price']);
+ $sum += ($q * $row['Price']);
+ 
+}

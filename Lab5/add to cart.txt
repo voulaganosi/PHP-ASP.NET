@@ -1,0 +1,12 @@
+<?php
+if(! isset($_SESSION['cart']) || ! is_array($_SESSION['cart'])) {
+	$_SESSION['cart']=array();
+}
+$cart= &$_SESSION['cart'];
+$p = intval($_REQUEST['prod_id']);
+$a = intval($_REQUEST['posotita']);
+
+if(!isset($cart["$p"])) { $cart["$p"]=0;}
+$cart["$p"]+=$a;
+
+?>

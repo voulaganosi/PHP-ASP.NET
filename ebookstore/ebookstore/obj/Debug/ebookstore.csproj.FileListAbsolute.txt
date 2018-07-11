@@ -1,0 +1,25 @@
+C:\Users\user1\Documents\Visual Studio 2008\Projects\ebookstore\ebookstore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user1\Documents\Visual Studio 2008\Projects\ebookstore\ebookstore\bin\ebookstore.dll
+C:\Users\user1\Documents\Visual Studio 2008\Projects\ebookstore\ebookstore\bin\ebookstore.pdb
+C:\Users\user1\Documents\Visual Studio 2008\Projects\ebookstore\ebookstore\obj\Debug\ebookstore.dll
+C:\Users\user1\Documents\Visual Studio 2008\Projects\ebookstore\ebookstore\obj\Debug\ebookstore.pdb
+C:\Users\user\Desktop\ebookstore\ebookstore\bin\ebookstore.dll
+C:\Users\user\Desktop\ebookstore\ebookstore\bin\ebookstore.pdb
+C:\Users\user\Desktop\ebookstore\ebookstore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\ebookstore\ebookstore\obj\Debug\ebookstore.dll
+C:\Users\user\Desktop\ebookstore\ebookstore\obj\Debug\ebookstore.pdb
+C:\Users\user1\Desktop\ebookstore\ebookstore\bin\ebookstore.dll
+C:\Users\user1\Desktop\ebookstore\ebookstore\bin\ebookstore.pdb
+C:\Users\user1\Desktop\ebookstore\ebookstore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user1\Desktop\ebookstore\ebookstore\obj\Debug\ebookstore.dll
+C:\Users\user1\Desktop\ebookstore\ebookstore\obj\Debug\ebookstore.pdb
+I:\Ε Εξάμηνο\ΑΔΙΣΕ\ebookstore\ebookstore\bin\ebookstore.dll
+I:\Ε Εξάμηνο\ΑΔΙΣΕ\ebookstore\ebookstore\bin\ebookstore.pdb
+I:\Ε Εξάμηνο\ΑΔΙΣΕ\ebookstore\ebookstore\obj\Debug\ResolveAssemblyReference.cache
+I:\Ε Εξάμηνο\ΑΔΙΣΕ\ebookstore\ebookstore\obj\Debug\ebookstore.dll
+I:\Ε Εξάμηνο\ΑΔΙΣΕ\ebookstore\ebookstore\obj\Debug\ebookstore.pdb
+E:\Users\Σχολή\Ε Εξάμηνο\ΑΔΙΣΕ\Εργαστήριο\ebookstore\ebookstore\bin\ebookstore.dll
+E:\Users\Σχολή\Ε Εξάμηνο\ΑΔΙΣΕ\Εργαστήριο\ebookstore\ebookstore\bin\ebookstore.pdb
+E:\Users\Σχολή\Ε Εξάμηνο\ΑΔΙΣΕ\Εργαστήριο\ebookstore\ebookstore\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\Σχολή\Ε Εξάμηνο\ΑΔΙΣΕ\Εργαστήριο\ebookstore\ebookstore\obj\Debug\ebookstore.dll
+E:\Users\Σχολή\Ε Εξάμηνο\ΑΔΙΣΕ\Εργαστήριο\ebookstore\ebookstore\obj\Debug\ebookstore.pdb

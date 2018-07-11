@@ -1,0 +1,8 @@
+<div id="top">
+<a href="index.php?p=start">Αρχική</a>
+<a href="?p=shopinfo">Κατάστημα</a>
+<a href="?p=products">Προϊόντα</a>
+<a href="?p=show_cart">Καλάθι Αγορών</a>
+<a href="?p=contact">Επικοινωνία</a>
+<a href="?p=login">Login</a>
+</div>

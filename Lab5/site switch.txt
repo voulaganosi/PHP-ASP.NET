@@ -1,0 +1,37 @@
+<?php
+if( ! isset($_REQUEST['p'])) {
+	$_REQUEST['p']='start';
+}
+$p = $_REQUEST['p'];
+print "must require page: internal/$p";
+switch ($p){
+case "start" :		require "internal/start.php";
+					break;
+case "shopinfo": 	require "internal/shopinfo.php";
+					break;
+case "login" :		require "internal/login.php";
+					break;
+case 'do_login':	require "internal/do_login.php";
+					break;
+case 'logout':		require "internal/logout.php";
+					break;
+case 'showcat':		require "internal/showcat.php";
+					break;
+case 'show':		require "internal/prod_info.php";
+					break;
+case 'buy':			require "internal/buy.php";
+					break;
+
+//case 'show':		require "internal/show.php";
+					//break;
+case 'add_cart':	require "internal/add_cart.php";
+case 'show_cart':	require "internal/show_cart.php";
+					break;
+case 'prod':		require "internal/products.php";
+					break;
+case 'pedit':		require "internal/pedit.php";
+					break;
+default: 
+	print "Η σελίδα δεν υπάρχει";
+}
+?>

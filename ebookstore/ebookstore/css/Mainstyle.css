@@ -1,0 +1,29 @@
+﻿div.topdiv
+{
+	height:3em; 
+	vertical-align:middle;
+	background-color: #ddd;
+	width:100%;
+}
+div.leftdiv
+{
+width:20em;
+	background-color:#aaa;
+	display:inline-block;
+	height:auto;
+	min-height:10em;
+}
+div.maindiv
+{
+	width:auto;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+div.footerdiv
+{
+		height:3em; 
+	vertical-align:middle;
+	background-color: #ddd;
+	width:100%;
+}
